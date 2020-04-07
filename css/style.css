@@ -1,4 +1,9 @@
 /* NOTE: Fonts */
+body {
+  overflow: hidden;
+  /* Hide scrollbars */
+}
+
 h1 {
   font-family: 'Bungee Inline', cursive;
   font-size: 100px;
@@ -109,4 +114,52 @@ h1.alt {
 
 .block {
   display: block
+}
+
+table {
+  height: 100%;
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  table-layout: fixed;
+  width: 100px;
+}
+
+tr {}
+
+td {
+  text-align: center;
+  white-space: nowrap;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+
+.roll-detail {
+  visibility: hidden;
+  transition: 0.2s;
+  transition-timing-function: cubic-bezier(.36, .65, .37, 1.02);
+}
+
+.roll-activate:hover {
+  color: grey;
+  transition: 0.2s;
+  transition-timing-function: cubic-bezier(.36, .65, .37, 1.02);
+}
+
+.roll-activate:hover .roll-detail {
+  transition: 0.2s;
+  transition-timing-function: cubic-bezier(.36, .65, .37, 1.02);
+  visibility: visible;
+}
+
+.roll-detail:hover {
+  color: #AC09BC;
+}
+
+a:hover {
+  color: #AC09BC;
+}
+
+a {
+  font-family: 'Libre Baskerville', serif;
 }
