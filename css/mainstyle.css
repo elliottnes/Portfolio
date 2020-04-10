@@ -1,0 +1,18 @@
+h1 {
+  font-family: 'Bungee Inline', cursive;
+  font-size: 100px;
+  color: black;
+}
+
+h5, h6 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px
+}
+
+h1.alt {
+  font-family: 'Bungee Outline', cursive;
+}
