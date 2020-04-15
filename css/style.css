@@ -93,6 +93,7 @@ h1.alt {
   background: white;
   width: 100%;
   color: black;
+  border-top: 1px solid black;
 }
 
 .dropup-content a {
@@ -116,146 +117,21 @@ h1.alt {
   transition-timing-function: cubic-bezier(.36, .65, .37, 1.02);
 }
 
+a {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
+  color: black;
+}
+
+a:hover {
+  color: #AC09BC;
+  transition: 0.2s;
+  transition-timing-function: cubic-bezier(.36, .65, .37, 1.02);
+  text-decoration: none;
+}
+
 #pink:hover {
   color: #AC09BC;
   transition: 0.2s;
   transition-timing-function: cubic-bezier(.36, .65, .37, 1.02);
 }
-
-/* NOTE:
-.column-reverse {
-  flex-direction: column-reverse;
-  display: flex;
-  padding: 5px;
-  margin: 5px;
-  height: 100vh;
-  float: right;
-}
-
-.flex-item {
-  flex: 1;
-  margin: 15px;
-  text-align: right;
-  width: 150px;
-}
-
-.rotate {
-  transform: rotate(-90deg);
-  transform-origin: 100% 100%;
-}
-
-.tab {
-  position: absolute;
-  display: block;
-  right: 20px;
-  top: 15%;
-  transform: rotate(-90deg);
-  transform-origin: 100% 100%;
-}
-
-.tabb {
-  position: absolute;
-  display: block;
-  right: 20px;
-  top: 45%;
-  transform: rotate(-90deg);
-  transform-origin: 100% 100%;
-}
-
-.tabbb {
-  position: absolute;
-  display: block;
-  right: 20px;
-  top: 70%;
-  transform: rotate(-90deg);
-  transform-origin: 100% 100%;
-}
-
-.tabb-drop {
-  position: absolute;
-  right: 50px;
-  top: 45%;
-  transform: rotate(-90deg);
-  transform-origin: 100% 100%;
-  display: block;
-  margin-bottom: 30px;
-}
-
-.tabb:hover .tabbb {
-  display: inline-block;
-}
-
-.block {
-  display: block
-}
-
-table {
-  width: 100%;
-  position: absolute;
-  bottom: 20px;
-  table-layout: fixed;
-  height: 100px;
-}
-
-tr {}
-
-td {
-  text-align: center;
-  white-space: nowrap;
-  font-family: 'Libre Baskerville', serif;
-}
-
-.roll-detail-spray {
-  visibility: hidden;
-  transition: 0.2s;
-  transition-timing-function: cubic-bezier(.36, .65, .37, 1.02);
-}
-
-.roll-detail-graphic {
-  visibility: hidden;
-  transition: 0.2s;
-  transition-timing-function: cubic-bezier(.36, .65, .37, 1.02);
-}
-
-.roll-activate-spray:hover .roll-detail-spray {
-  transition: 0.2s !important;
-  transition-timing-function: cubic-bezier(.36, .65, .37, 1.02) !important;
-  visibility: visible !important;
-}
-
-.roll-activate-graphic:hover .roll-detail-graphic {
-  transition: 0.2s !important;
-  transition-timing-function: cubic-bezier(.36, .65, .37, 1.02) !important;
-  visibility: visible !important;
-}
-
-.roll-activate-spray:hover {}
-
-.roll-activate-graphic:hover {}
-
-.roll-detail {
-  visibility: hidden;
-  transition: 0.2s;
-  transition-timing-function: cubic-bezier(.36, .65, .37, 1.02);
-}
-
-.roll-activate:hover {
-  color: grey;
-  transition: 0.2s;
-  transition-timing-function: cubic-bezier(.36, .65, .37, 1.02);
-}
-
-.roll-activate:hover .roll-detail {
-  transition: 0.2s;
-  transition-timing-function: cubic-bezier(.36, .65, .37, 1.02);
-  visibility: visible;
-}
-
-.roll-detail:hover {
-  color: #AC09BC;
-}
-
-a:hover {
-  color: #AC09BC;
-}
-*/

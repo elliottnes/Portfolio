@@ -1,3 +1,7 @@
+.container-fluid {
+  padding: 20px;
+}
+
 h1 {
   font-family: 'Bungee Inline', cursive;
   font-size: 80px;
@@ -23,4 +27,113 @@ h1.alt {
 
 .small-content {
   margin-top: 20px;
+}
+
+.muralheight {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.indoorheight {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.posterheight {
+  width: 100%;
+  object-fit: cover;
+}
+
+.title {
+  top: 0px;
+}
+
+/* NOTE: menu */
+.header {
+  position: fixed;
+  top: 35px;
+  margin: 0px;
+  padding: 0px;
+  right: 0px;
+  width: 66%;
+  z-index: 4;
+  position: absolute;
+}
+
+.header ul li {
+  list-style: none;
+  padding: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.headerMenu {
+  margin: 0px;
+  padding: 0px;
+  width: auto;
+}
+
+.headerMenu li {
+  list-style: none;
+  float: right;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
+  padding: 10px 10px 10px 10px;
+  width: 25%;
+  background: white;
+}
+
+/* Dropup content (Hidden by Default) */
+.dropdown-content {
+  visibility: hidden;
+  position: absolute;
+  top: 22px;
+  background: white;
+  width: 100%;
+  color: black;
+  z-index: 5
+}
+
+.dropdown-content a {
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+.dropdown {
+  padding: 0, 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  visibility: visible;
+  transition: 0.2s;
+  transition-timing-function: cubic-bezier(.36, .65, .37, 1.02);
+}
+
+.dropdown:hover {
+  color: grey;
+  transition: 0.2s;
+  transition-timing-function: cubic-bezier(.36, .65, .37, 1.02);
+}
+
+a {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
+  color: black;
+}
+
+a:hover {
+  color: #AC09BC;
+  transition: 0.2s;
+  transition-timing-function: cubic-bezier(.36, .65, .37, 1.02);
+  text-decoration: none;
+}
+
+#pink:hover {
+  color: #AC09BC;
+  transition: 0.2s;
+  transition-timing-function: cubic-bezier(.36, .65, .37, 1.02);
 }
